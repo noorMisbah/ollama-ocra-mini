@@ -1,2 +1,3 @@
 # ollama-ocra-mini
-Using ocra mini 7b
+For using ocra mini 7b the steps are:
+#1. import libraries
