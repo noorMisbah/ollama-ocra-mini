@@ -3,11 +3,13 @@
 
 1.** import libraries**
    import torch
-   from transformers import LlamaForCausalLM, LlamaTokenizer
+   from transformers import LlamaForCausalLM, LlamaTokenizer    
+   
 2.** use model we want to use**
    model_name="pankajmathur/orca_mini_7b"
    tokenizer=LlamaTokenizer.from_pretrained(model_name)
-   model=LlamaForCausalLM.from_pretrained(model_name,torch_dtype=torch.float16,device_map="auto")
+   model=LlamaForCausalLM.from_pretrained(model_name,torch_dtype=torch.float16,device_map="auto")    
+   
 3.**For text generation create a function **       
 
      
